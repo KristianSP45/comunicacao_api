@@ -1,3 +1,5 @@
+com\luizalebs\comunicacao_api\infraestructure\client\EmailClient.class
+com\luizalebs\comunicacao_api\business\service\EmailService.class
 com\luizalebs\comunicacao_api\business\converter\ComunicacaoConverter.class
 com\luizalebs\comunicacao_api\infraestructure\repositories\ComunicacaoRepository.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoOutDTO$ComunicacaoOutDTOBuilder.class
@@ -9,5 +11,7 @@ com\luizalebs\comunicacao_api\infraestructure\enums\ModoEnvioEnum.class
 com\luizalebs\comunicacao_api\infraestructure\entities\ComunicacaoEntity$ComunicacaoEntityBuilder.class
 com\luizalebs\comunicacao_api\api\ComunicacaoController.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoInDTO.class
+com\luizalebs\comunicacao_api\business\service\CronService.class
+com\luizalebs\comunicacao_api\infraestructure\exceptions\ResourceNotFoundException.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoInDTO$ComunicacaoInDTOBuilder.class
 com\luizalebs\comunicacao_api\infraestructure\enums\StatusEnvioEnum.class

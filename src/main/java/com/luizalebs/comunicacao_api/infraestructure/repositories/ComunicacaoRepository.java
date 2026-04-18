@@ -6,14 +6,13 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Repository
 public interface ComunicacaoRepository extends CrudRepository<ComunicacaoEntity, Long> {
 
     ComunicacaoEntity findByEmailDestinatario(String nomeDestinatario);
 
-    ComunicacaoEntity findByDataHoraenvioBetweenAndStatusEnvio(
+    ComunicacaoEntity findByDataHoraEnvioBetweenAndStatusEnvio(
             LocalDateTime dataInicial,
             LocalDateTime dataFinal,
             StatusEnvioEnum statusEnvioEnum);

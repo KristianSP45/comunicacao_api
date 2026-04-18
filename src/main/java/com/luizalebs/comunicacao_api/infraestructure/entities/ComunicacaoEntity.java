@@ -24,7 +24,7 @@ public class ComunicacaoEntity implements Serializable {
     private Long id;
 
     @Column(name = "HORA_ENVIO", nullable = false)
-    private LocalDateTime dataHoraenvio;
+    private LocalDateTime dataHoraEnvio;
 
     @Column(name = "NOME_DESTINATARIO", nullable = false)
     private String nomeDestinatario;
