@@ -12,7 +12,7 @@ public class ComunicacaoConverter {
 
     public ComunicacaoEntity paraEntity(ComunicacaoInDTO dto) {
         return ComunicacaoEntity.builder()
-                .dataHoraenvio(dto.getDataHoraEnvio() )
+                .dataHoraEnvio(dto.getDataHoraEnvio() )
                 .emailDestinatario(dto.getEmailDestinatario() )
                 .nomeDestinatario(dto.getNomeDestinatario() )
                 .mensagem(dto.getMensagem() )
@@ -25,7 +25,7 @@ public class ComunicacaoConverter {
     public ComunicacaoOutDTO paraDTO(ComunicacaoEntity entity) {
         return ComunicacaoOutDTO.builder()
                 .id(entity.getId() )
-                .dataHoraEnvio(entity.getDataHoraenvio() )
+                .dataHoraEnvio(entity.getDataHoraEnvio() )
                 .emailDestinatario(entity.getEmailDestinatario() )
                 .nomeDestinatario(entity.getNomeDestinatario() )
                 .mensagem(entity.getMensagem() )
