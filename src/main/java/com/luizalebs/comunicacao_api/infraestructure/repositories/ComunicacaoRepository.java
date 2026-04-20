@@ -16,4 +16,6 @@ public interface ComunicacaoRepository extends CrudRepository<ComunicacaoEntity,
             LocalDateTime dataInicial,
             LocalDateTime dataFinal,
             StatusEnvioEnum statusEnvioEnum);
+
+    boolean existsByEmailDestinatario(String emailDestinatario);
 }
